@@ -2,11 +2,26 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import pairwise_distances
 
+import numpy as np
+
+
+def pairwise_distancess(X):
+    n = X.shape[0]
+    dist_matrix = np.zeros((n, n))
+
+
+    for i in range(n):
+        for j in range(i+1, n):
+            dist = np.linalg.norm(X[i] - X[j])
+            dist_matrix[i, j] = dist
+            dist_matrix[j, i] = dist
+
+    return dist_matrix
 
 def davies_bouldin_index(X, labels):
     X = pd.read_csv(X)
     # Compute distance matrix
-    dist_matrix = pairwise_distances(X)
+    dist_matrix = pairwise_distancess(X)
 
     # Compute centroids
     centroids = []
@@ -16,7 +31,7 @@ def davies_bouldin_index(X, labels):
         centroids.append(np.mean(cluster_points, axis=0))
 
     # Compute pairwise distances between centroids
-    centroid_dists = pairwise_distances(centroids)
+    centroid_dists = pairwise_distancess(centroids)
 
     # Compute average intra-cluster distance for each cluster
     intra_cluster_dists = []

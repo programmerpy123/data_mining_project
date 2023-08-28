@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4998a26d-3551-45f2-a5c8-0d2df3154097" name="Changes" comment="" />
+    <list default="true" id="4998a26d-3551-45f2-a5c8-0d2df3154097" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluation_criteria.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluation_criteria.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../backend_octa" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
@@ -48,6 +53,10 @@
       <workItem from="1692718878179" duration="3416000" />
       <workItem from="1692954858847" duration="1456000" />
       <workItem from="1692956328020" duration="452000" />
+      <workItem from="1692960112073" duration="1369000" />
+      <workItem from="1693015855370" duration="22000" />
+      <workItem from="1693111364807" duration="2137000" />
+      <workItem from="1693122562280" duration="150000" />
     </task>
     <servers />
   </component>
