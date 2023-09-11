@@ -28,11 +28,13 @@ def davies_bouldin_index(data_path, labels):
     # For each unique cluster label, compute the centroid (mean) of all points with that label
     centroids = [np.mean(X[labels == label], axis=0) for label in np.unique(labels)]
 
-    # For each cluster, compute the average distance between points within that cluster and its centroid
+    # # For each cluster, compute the average distance between points within that cluster and its centroid
     intra_cluster_dists = [
         np.mean(pairwise_distancess(X[labels == label].values, np.array(centroid).reshape(1, -1)))
         for label, centroid in zip(np.unique(labels), centroids)
     ]
+
+
 
     # Compute pairwise distances between the centroids of the clusters
     centroid_dists = pairwise_distancess(np.array(centroids))

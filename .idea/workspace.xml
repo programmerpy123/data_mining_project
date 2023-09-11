@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4998a26d-3551-45f2-a5c8-0d2df3154097" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/creating-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/project-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasetnew2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasetnew3.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/evaluation_criteria.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluation_criteria.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +58,7 @@
       <workItem from="1694058229036" duration="2633000" />
       <workItem from="1694061099250" duration="426000" />
       <workItem from="1694143792014" duration="5053000" />
-      <workItem from="1694413682136" duration="4710000" />
+      <workItem from="1694413682136" duration="5310000" />
     </task>
     <servers />
   </component>
